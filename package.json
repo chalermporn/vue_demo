@@ -10,7 +10,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@mdi/font": "^3.5.95",
+    "material-design-icons-iconfont": "^4.0.5",
     "register-service-worker": "^1.6.2",
+    "roboto-fontface": "*",
     "vue": "^2.6.9",
     "vue-router": "^3.0.2",
     "vuetify": "^1.5.7",
@@ -33,7 +37,9 @@
     "lint-staged": "^8.1.4",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.9"
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.9",
+    "vuetify-loader": "^1.0.5"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
